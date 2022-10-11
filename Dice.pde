@@ -22,11 +22,11 @@ void mousePressed()
 {
   redraw();
 }
-class Die //models one single dice cube
+class Die
 {
   int myX, myY;
   int roll;
-  Die(int x, int y) //constructor
+  Die(int x, int y) 
   {
     roll();
     myY = y;
